@@ -17,6 +17,7 @@ API to manage Golang Course students.
 
 
 ### Technologies
-- Golan
+- Golang
 - GORM
 - SQLite
+- Echo
