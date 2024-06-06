@@ -1,6 +1,6 @@
 # API-STUDENTS
 
-API for Golang Course.
+API to manage Golang Course students.
 
 
 ### Technologies
