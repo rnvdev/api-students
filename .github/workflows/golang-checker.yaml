@@ -4,7 +4,7 @@ on:
       - main
 
 jobs:
-  download_source_file:
+  check_golang_code:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
