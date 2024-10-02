@@ -1,0 +1,13 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  download_source_file:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.2.0
+      - name: Golangci-lint
+        uses: golangci/golangci-lint-action@v6.1.0
