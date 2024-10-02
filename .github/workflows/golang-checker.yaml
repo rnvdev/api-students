@@ -6,12 +6,11 @@ on:
     paths-ignore:
       - '.github/**'
 
-
 jobs:
   check_golang_code:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4.2.0
-      - name: Golangci-lint
+      - name: Lint
         uses: golangci/golangci-lint-action@v6.1.0
