@@ -14,6 +14,7 @@ func main() {
 	e.Logger.Fatal(e.Start(":8080"))
 }
 
+
 func getStudent(c echo.Context) error {
 	return c.String(http.StatusOK, "List of all students")
 }
