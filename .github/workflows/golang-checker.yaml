@@ -1,3 +1,4 @@
+name: Golang Test Code
 on:
   push:
     branches:
